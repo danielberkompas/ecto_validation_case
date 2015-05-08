@@ -14,7 +14,7 @@ before_script:
   - mix deps.get --only test
 script:
   - mix test
-  - dialyzer --no_check_plt --plt $PLT_LOCATION -Wno_match -Wno_return --no_native _build/test/lib/ex_twilio/ebin
+  - dialyzer --no_check_plt --plt $PLT_LOCATION -Wno_match -Wno_return --no_native _build/test/lib/ecto_validation_case/ebin
 after_script:
   - MIX_ENV=docs mix deps.get
   - MIX_ENV=docs mix inch.report
