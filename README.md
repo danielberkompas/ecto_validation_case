@@ -46,5 +46,9 @@ end
 
 Then run `mix deps.get` to install.
 
+## License
+
+MIT. See [LICENSE](/LICENSE) and [NOTICE](/NOTICE) for more details.
+
 [ecto]: https://github.com/elixir-lang/ecto
 [shoulda]: http://matchers.shoulda.io/
