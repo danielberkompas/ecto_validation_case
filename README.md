@@ -1,7 +1,7 @@
 Ecto.ValidationCase
 ==================
 
-Simplify your Ecto model validation tests. Loosely inspired by [shoulda
+Simplify your [Ecto][ecto] model validation tests. Loosely inspired by [shoulda
 matchers][shoulda], but simpler.
 
 ## Sample
@@ -24,7 +24,7 @@ Rather than create a matching test helper function for each of the valiations
 that [Ecto][ecto] supports, this library intentionally keeps things simple,
 providing only `accepts/2` and `rejects/2`. Why?
 
-- It's very easy to remember, which makes validation tests more likely to be
+- The api very easy to remember, which makes validation tests more likely to be
   written.
 - The tests are more explicit, with a minimum of magic. It is very clear exactly
   what values are being tested, for which fields, and which error messages
