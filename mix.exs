@@ -1,7 +1,7 @@
 defmodule EctoValidationCase.Mixfile do
   use Mix.Project
 
-  @version "0.0.1"
+  @version "0.1.1"
   @github "https://github.com/danielberkompas/ecto_validation_case"
 
   def project do
