@@ -8,6 +8,13 @@ Ecto.ValidationCase
 Simplify your [Ecto][ecto] model validation tests. Loosely inspired by [shoulda
 matchers][shoulda], but simpler.
 
+## IMPORTANT
+
+Jose Valim, creator of Elixir, has outlined a better approach to this problem
+here: https://groups.google.com/forum/#!topic/elixir-lang-talk/kwLLyCiarls
+
+Go check it out.
+
 ## Sample
 
 ```elixir
