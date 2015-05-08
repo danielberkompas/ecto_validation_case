@@ -3,19 +3,19 @@
 -----BEGIN PGP SIGNATURE-----
 Comment: GPGTools - https://gpgtools.org
 
-iQIcBAABCgAGBQJVTA5BAAoJEKU82t1CbYQMX5wP/14Gh9aJgz69VMoxAl5dgIIH
-gYstnq77a5S1nAn11tqhQpShhylXdrHZDh/JNuqG+hR1eg4ddrkH4ESwpW6kYS2p
-PF6/9RGmg1sXccIFunkGEnpgGBgY51gEq5Igq3moqebqF/Tg3L43UWCqrg/+WLsI
-wXYfi/6bihrBiG2o/hZuBmy3XGo3cCeJo/xZfkz6+qTeKGihuCsTVF6VxcznawEL
-yv+caTJEnWSfjvvNJoeq+Neis2RX19Z3KvdpBTAPJgCYNVlumELZiMmWpLgh33/6
-Z+Y82F57UXNAlacGcKkQBgytM/v1cQWlcj0gjVVO8H6lNjr2LRRbdI4Zg2vYsVLU
-B6MjKQU6Mp1A9uqAqMCqAtlazuQeUqVT92XN5nqYMGQxZTPEoGyWoVuJDGTJfarU
-u5Z4YIcQ3tGLfdPjDArwOYnsQE3NQG72gKkvRmD/Ss5q9FtocYd6BdnToDcgslrJ
-36ugnZXTlwrfnPCJbHGWVRz2gk0hQWXLbu4gOgHxTByzQ2tieUn1tCm4jwu+sA15
-awSgyjxqn99AGTtKKnMNksGMGj73eAIJPt9ACKXHHa6uEc9/uc4sN4gLKAzp5NpN
-apePUkm8e7r2Mlw6/4yFyw0a1HC674ZiKEQa2CnI7HnRxoeGyVuuW0akuyVmSbDv
-oBCP2mSjeXGXgRMKvqxe
-=mF2T
+iQIcBAABCgAGBQJVTA7AAAoJEKU82t1CbYQMmyIQAIqj74Uq7XrTqc3TCaK1hCqh
+FZPXPqgTGwlq+okkrTg5KU+9ZcT8Awdey3VTKc3soRUFZvzryBSmhSmewWTp/oqt
+XJQjhyCMeCnctNxVFra/8sy+aCqCnMtQ2LSu+mxbjWmCy6jVIYw5Q0YWNN5AQL+U
+o5oCTrvzvssf6M2uqgpP8Zx964ygetuElgLWiP4BAR3xVY1OdG7JWE2MLXgLvZQ1
+sl9XWjv1b0J3xpQQqzKDqr2sU71VngDvrhLp+foW3k2p1suUYwdWzkxxycF505U8
+Bvvbsp0LRlonMm+1+QNFc/UJ4aBTx6MGLD8765ix+o51IVUt1utKboD3+PvqPXtC
+XwDK0R6Oiepy73fzmfdapsQo81SY0Uhro0u9HD0GgOSvb4QcGQ/rI9/RnZVZZ+51
+/ZsGEr8MW6H6VwwieDkQ3Sqg37pbMukl0mgAEPEZu3s69PXusa18y+orVCcNczeh
+Wf9LH+RMBK3KHUCJhfZPkly61A5dr79idbrt7YbSmADCKgBdEI9u5sON6fiybdQh
+8dhQdY33bvuJY3+gZL0LxRZRcCHgDwWmfba3Jv4MPoKyxKAYQ2zfDb5u24CVA8rA
+/lSJg/vzUQpg69j7bcWoqsWrZcvpfxwDydVZmpa02HCLY0t0bbVnv9pCMxM3kgib
+YyIVsLBuoIY1BnrkR43h
+=5mN1
 -----END PGP SIGNATURE-----
 
 ```
@@ -31,7 +31,7 @@ size  exec  file                            contents
             ./                                                                                              
 34            .gitignore                    e78d9bbfe2af0501e32d75b6733c6649c36e0cc29b4366d2028388a053317cf4
 717           .travis.yml                   341a7c78a099db29eebfb9ab9f5ae82191fe37a2398626478ee55715da14e11d
-153           CHANGELOG.md                  42e628018fccb4a446a68c506c2e9437df5eb0ab0071c89cf4248f2dc3a398d6
+248           CHANGELOG.md                  8b7c69fec63a52bb99d456be04a16dd32a4374ceec1812a2f08d96f0720a1cfb
 1083          LICENSE                       a24b375a609f6c84e82c1458fbb0383678e3f492ffb83912731fa5313831a7c9
 544           NOTICE                        dfb8bc3077af9bfec9c2540c2cfdc4c66caa40e963b10aca07b193a3f5063e2d
 1625          README.md                     bdf3b6994528980c84c31a654c8a5a2d83c1688784ee6c5325bd7f864ba86feb
@@ -40,7 +40,7 @@ size  exec  file                            contents
               lib/                                                                                          
                 ecto/                                                                                       
 4998              validation_case.ex        94079e70f34053aa503e0b903a63bf6f517d82b45377972344349f7ed34113c4
-1028          mix.exs                       385cdfe1b24eed0061201227467ebde0fedee93889afe4b3da20a16fc4c5696a
+1028          mix.exs                       5f1832b7e93ce6cb07c59e5069138359760492318bbb4f9b9d61f1e69d7fdefc
 273           mix.lock                      2413dd5f2defd794b9eb41d0e407dad51c5e491ec231abe13c6be5d114d81c4d
               script/                                                                                       
 622   x         release                     3bf505bc77c52e4ff6618c63f5dc3cb176f636266abbf4aa9161d6222771663a
