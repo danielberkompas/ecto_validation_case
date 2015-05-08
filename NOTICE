@@ -8,3 +8,11 @@ This product depends on the following third-party components:
        Apache 2.0 license, available here:
 
        http://www.apache.org/licenses/LICENSE-2.0
+
+     * ecto (https://github.com/elixir-lang/ecto)
+       
+       Copyright 2012 Plataformatec. Ecto is open source under the 
+       Apache 2.0 license, available here:
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
