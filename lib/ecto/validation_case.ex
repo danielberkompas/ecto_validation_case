@@ -1,5 +1,5 @@
 defmodule Ecto.ValidationCase do
-  @shortdoc "Simplify testing Ecto validations."
+  @shortdoc "Simplify testing Ecto model validations."
 
   @moduledoc """
   Ecto.ValidationCase simplifies writing validation tests for Ecto models.
@@ -12,7 +12,7 @@ defmodule Ecto.ValidationCase do
         alias MyApp.User
 
         test "requires password to be 10 chars long" do
-          rejects "password", for: [User, :password]
+          rejects "password",    for: [User, :password], message: "too short"
           accepts "password123", for: [User, :password]
         end
       end
@@ -28,8 +28,8 @@ defmodule Ecto.ValidationCase do
 
       use Ecto.ValidationCase, model: MyApp.User
 
-  You can then leave the model out of the `for` option, and `MyApp.User` will be
-  used by default. 
+  You can then leave the model out of the `for:` option, and `MyApp.User` will 
+  be used by default. 
 
       accepts "Daniel Berkompas", for: :name
   
