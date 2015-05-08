@@ -1,6 +1,8 @@
 Ecto.ValidationCase
 ==================
 
+[![Build Status](https://travis-ci.org/danielberkompas/ecto_validation_case.svg?branch=master)](https://travis-ci.org/danielberkompas/ecto_validation_case)
+
 Simplify your [Ecto][ecto] model validation tests. Loosely inspired by [shoulda
 matchers][shoulda], but simpler.
 
