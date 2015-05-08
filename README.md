@@ -1,6 +1,7 @@
 Ecto.ValidationCase
 ==================
 
+[![Hex Version](http://img.shields.io/hexpm/v/ecto_validation_case.svg)](https://hex.pm/packages/ecto_validation_case)
 [![Build Status](https://travis-ci.org/danielberkompas/ecto_validation_case.svg?branch=master)](https://travis-ci.org/danielberkompas/ecto_validation_case)
 [![Inline docs](http://inch-ci.org/github/danielberkompas/ecto_validation_case.svg?branch=master)](http://inch-ci.org/github/danielberkompas/ecto_validation_case)
 
@@ -46,9 +47,14 @@ end
 
 Then run `mix deps.get` to install.
 
+## Documentation
+
+Documentation is available on `Ecto.ValidationCase`'s [hex page][hex-page].
+
 ## License
 
 MIT. See [LICENSE](/LICENSE) and [NOTICE](/NOTICE) for more details.
 
+[hex-page]: https://hex.pm/packages/ecto_validation_case
 [ecto]: https://github.com/elixir-lang/ecto
 [shoulda]: http://matchers.shoulda.io/
