@@ -1,2 +1,0 @@
-defmodule EctoValidationCase do
-end

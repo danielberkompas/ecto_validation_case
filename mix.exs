@@ -1,9 +1,11 @@
 defmodule EctoValidationCase.Mixfile do
   use Mix.Project
 
+  @version "0.0.1"
+
   def project do
     [app: :ecto_validation_case,
-     version: "0.0.1",
+     version: @version,
      elixir: "~> 1.0",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -27,6 +29,6 @@ defmodule EctoValidationCase.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [{:ecto, ">= 0.11.0"}]
   end
 end
