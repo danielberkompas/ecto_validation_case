@@ -48,7 +48,7 @@ You can install `Ecto.ValidationCase` from hex. First, change your `deps` in
 
 ```elixir
 def deps do
-  [{:ecto_validation_case, ">= 0.1.0", env: "test"}]
+  [{:ecto_validation_case, ">= 0.1.0", env: :test}]
 end
 ```
 
