@@ -44,11 +44,11 @@ providing only `accepts/2` and `rejects/2`. Why?
 ## Installation
 
 You can install `Ecto.ValidationCase` from hex. First, change your `deps` in
-`mix.exs`:
+`mix.exs` specifying that this is applicable only for the test environment:
 
 ```elixir
 def deps do
-  [{:ecto_validation_case, ">= 0.1.0"}]
+  [{:ecto_validation_case, ">= 0.1.0", env: :test}]
 end
 ```
 
